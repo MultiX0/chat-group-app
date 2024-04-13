@@ -15,6 +15,6 @@ for more information go to
 
 # Tips
 
-**you have to disable the secure policy in your tables and you need to make turn off the email confirm like here:**
+**you have to disable the secure policy in your tables and you need to turn off the email confirm like here:**
 <p></p>
 <img src="auth.png" alt="error404">
