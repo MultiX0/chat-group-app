@@ -1,17 +1,11 @@
 # chat_group
 
-A new Flutter project.
+"Introducing our sleek and user-friendly chat group app, built with Flutter and powered by Supabase. Stay connected with friends, family, or colleagues effortlessly through real-time messaging and group chats. With Supabase handling the backend, enjoy secure and reliable data storage and synchronization, ensuring your conversations are always up-to-date across devices. Whether you're organizing events, collaborating on projects, or simply catching up, our app provides a seamless and intuitive experience for all your communication needs."
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # Info
+the back end service is -[Supabase](https://supabase.com/)
+to add supabase into your flutter project just run this command in the project terminal
+`flutter pub add supabase_flutter`
+for more information go to 
+- [supabase_flutter](https://pub.dev/packages/supabase_flutter)
+- [supabase_document](https://supabase.com/docs/guides/getting-started/tutorials/with-flutter)
