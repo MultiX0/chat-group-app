@@ -5,11 +5,10 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  //add your database url and the anonymous key here:
   await Supabase.initialize(
-    url: 'https://vlwmrflauftwssusihwv.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsd21yZmxhdWZ0d3NzdXNpaHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTI5OTA3NDksImV4cCI6MjAyODU2Njc0OX0.MXYVjtikOnUBknL8lftpZMsL75gSWMjd1ilbFV6IASs',
+    url: "SUPABASE_URL",
+    anonKey: "SUPABASE_ANON_KEY",
   );
 
   runApp(const MyApp());
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Chat Group",
+      title: "- Chat Group -",
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: supabase.auth.currentSession != null ? const ChatScreen() : const StartScreen(),

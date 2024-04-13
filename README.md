@@ -14,6 +14,6 @@ for more information go to
 **I created this application as a challenge to develop an app in less than 40 minutes, without using state management and potentially having many errors (but it's not bad considering the time constraint).**
 
 # Tips
-you have to disable the secure policy in your tables
-and you need to make turn off the email confirm like here:
+<p>\n</p>
+**you have to disable the secure policy in your tables and you need to make turn off the email confirm like here:**
 <img src="auth.png" alt="error404">
