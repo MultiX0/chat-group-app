@@ -9,3 +9,11 @@ to add supabase into your flutter project just run this command in the project t
 for more information go to 
 - [supabase_flutter](https://pub.dev/packages/supabase_flutter)
 - [supabase_document](https://supabase.com/docs/guides/getting-started/tutorials/with-flutter)
+
+# Look Here
+**I created this application as a challenge to develop an app in less than 40 minutes, without using state management and potentially having many errors (but it's not bad considering the time constraint).**
+
+# Tips
+you have to disable the secure policy in your tables
+and you need to make turn off the email confirm like here:
+<img src="auth.png" alt="error404">
